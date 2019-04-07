@@ -23,10 +23,30 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/magnific-popup/dist/magnific-popup.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/angular-carousel/dist/angular-carousel.min.css",
+              "node_modules/aos/dist/aos.css",
+              "src/assets/css/owl.theme.default.min.css",
+              "src/assets/css/bootstrap-datepicker.css",
+              "src/assets/css/style.css",
+              "src/assets/fonts/icomoon/style.css",
+              "src/assets/fonts/flaticon/font/flaticon.css",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/jquery-migrate-3.0.1.min.js",
+              "src/assets/js/bootstrap-datepicker.min.js",
+              "node_modules/popper.js/dist/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/angular-carousel/dist/angular-carousel.min.js",
+              "node_modules/jquery.stellar/jquery.stellar.js",
+              "node_modules/jquery.countdown/jquery.countdown.js",
+              "node_modules/magnific-popup/dist/jquery.magnific-popup.min.js",
+              "node_modules/aos/dist/aos.js",
+              "src/assets/js/main.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
