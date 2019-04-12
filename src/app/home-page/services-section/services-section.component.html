@@ -1,0 +1,33 @@
+<div
+  ng2-carouselamos
+  [width]="auto"
+  [items]="AllServices"
+  [$item]="itemTemplate"
+  [$prev]="prevTemplate"
+  [$next]="nextTemplate"
+  (onSelectedItem)="selectedItem = $event.item; selectedIndex = $event.index"
+></div>
+
+<ng-template #prevTemplate>
+    <span class="icon-arrow_back"></span>
+</ng-template>
+   
+<ng-template #nextTemplate>
+    <span class="icon-arrow_forward"></span>
+</ng-template>
+
+<div class="site-section block-13">
+    <div class="nonloop-block-13 image">
+        <ng-template let-service #itemTemplate>
+          <div>
+            <a href="#" class="unit-1 text-center">
+              <img src="{{service.Image}}" alt="Image" class="img-fluid">
+              <div class="unit-1-text">
+                <h3 class="unit-1-heading">{{service.Name}}</h3>
+                <p class="px-5">{{service.Description}}</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+    </div>
+</div>
