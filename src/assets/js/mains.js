@@ -144,6 +144,10 @@ jQuery(document).ready(function($) {
 	    }
 	  });
 
+		$(".popup-vimeo").hover(function(){
+			alert('hello');
+		});
+
 	  $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
 	    disableOn: 700,
 	    type: 'iframe',
